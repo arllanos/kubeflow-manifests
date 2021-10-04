@@ -125,9 +125,9 @@ network authorization and implement routing policies.
 Install Istio:
 
 ```sh
-kustomize build common/istio-1-9/istio-crds/base | kubectl apply -f -
-kustomize build common/istio-1-9/istio-namespace/base | kubectl apply -f -
-kustomize build common/istio-1-9/istio-install/base | kubectl apply -f -
+kustomize build common/istio-1-10/istio-crds/base | kubectl apply -f -
+kustomize build common/istio-1-10/istio-namespace/base | kubectl apply -f -
+kustomize build common/istio-1-10/istio-install/base | kubectl apply -f -
 ```
 
 #### Dex
