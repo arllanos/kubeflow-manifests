@@ -21,7 +21,7 @@ old version is `X1.Y1.Z1`:
         $ ISTIO_VERSION="X.Y.Z"
         $ ISTIO_ARCH=<cpu-architecture-amd64-arm64-or-armv7>
         $ wget "https://github.com/istio/istio/releases/download/${ISTIO_VERSION}/istio-${ISTIO_VERSION}-linux-${ISTIO_ARCH}.tar.gz"
-        $ tar xvfz istio-${ISTIO_VERSION}-linux${ISTIO_ARCH.tar.gz
+        $ tar xvfz istio-${ISTIO_VERSION}-linux${ISTIO_ARCH}.tar.gz
         # sudo mv istio-${ISTIO_VERSION}/bin/istioctl /usr/local/bin/istioctl
 
 3.  Use `istioctl` to generate an `IstioOperator` resource, the
