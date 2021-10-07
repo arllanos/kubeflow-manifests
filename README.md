@@ -156,7 +156,7 @@ Install Knative Serving:
 
 ```sh
 kustomize build common/knative/knative-serving/base | kubectl apply -f -
-kustomize build common/istio-1-9/cluster-local-gateway/base | kubectl apply -f -
+kustomize build common/istio-1-10/cluster-local-gateway/base | kubectl apply -f -
 ```
 
 Optionally, you can install Knative Eventing which can be used for inference request logging:
@@ -198,7 +198,7 @@ well.
 Install istio resources:
 
 ```sh
-kustomize build common/istio-1-9/kubeflow-istio-resources/base | kubectl apply -f -
+kustomize build common/istio-1-10/kubeflow-istio-resources/base | kubectl apply -f -
 ```
 
 #### Kubeflow Pipelines
